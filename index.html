@@ -1,0 +1,148 @@
+<link rel="stylesheet" href="./style.css">
+
+<section>
+    <div player>
+        <img src="./assets/Firebrand.png" profession>
+        <div name>Don Camillo (xXxDarkNaruto.3749)</div>
+        <div roles>
+            <img src="./assets/healer.png" role title="Healer">
+            <img src="./assets/tank.png" role title="Tank">
+            <span>MO: Claim</span>
+            <span>Sama: Rigom</span>
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon>
+            <img src="./assets/fury.png" boon>
+            <img src="./assets/quickness.png" boon>
+            <img src="./assets/alacrity.png" boon disabled>
+        </div>
+    </div>
+    <div player>
+        <img src="./assets/Soulbeast.png" profession>
+        <div name>I Snipe You (Miguel.4332)</div>
+        <div roles>
+            <img src="./assets/dps.png" role title="DPS">
+            <span>Deim: HK</span>
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon disabled>
+            <img src="./assets/fury.png" boon disabled>
+            <img src="./assets/quickness.png" boon disabled>
+            <img src="./assets/alacrity.png" boon disabled>
+        </div>
+    </div>
+    <div player>
+        <img src="./assets/Virtuoso.png" profession>
+        <div name>O P P A I (kirito.9874)</div>
+        <div roles>
+            <img src="./assets/dps.png" role title="DPS">
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon disabled>
+            <img src="./assets/fury.png" boon disabled>
+            <img src="./assets/quickness.png" boon disabled>
+            <img src="./assets/alacrity.png" boon disabled>
+        </div>
+    </div>
+    <div player>
+        <img src="./assets/Tempest.png" profession>
+        <div name>Jean Grey (iluvmarvel.1337)</div>
+        <div roles>
+            <img src="./assets/healer.png" role title="Healer">
+            <span>MO: Dispel</span>
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon>
+            <img src="./assets/fury.png" boon>
+            <img src="./assets/quickness.png" boon disabled>
+            <img src="./assets/alacrity.png" boon disabled>
+        </div>
+    </div>
+    <div player>
+        <img src="./assets/Scrapper.png" profession>
+        <div name>B O N K (B O N K.7737)</div>
+        <div roles>
+            <img src="./assets/dps.png" role title="DPS">
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon disabled>
+            <img src="./assets/fury.png" boon disabled>
+            <img src="./assets/quickness.png" boon>
+            <img src="./assets/alacrity.png" boon disabled>
+        </div>
+    </div>
+    <div player>
+        <img src="./assets/Mirage.png" profession>
+        <div name>Œ Alien Œ (iso27001.1798)</div>
+        <div roles>
+            <img src="./assets/dps.png" role title="DPS">
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon disabled>
+            <img src="./assets/fury.png" boon disabled>
+            <img src="./assets/quickness.png" boon disabled>
+            <img src="./assets/alacrity.png" boon>
+        </div>
+    </div>
+    <div player>
+        <img src="./assets/Harbinger.png" profession>
+        <div name>Deads Eater (rudolph.9447)</div>
+        <div roles>
+            <img src="./assets/dps.png" role title="DPS">
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon disabled>
+            <img src="./assets/fury.png" boon disabled>
+            <img src="./assets/quickness.png" boon disabled>
+            <img src="./assets/alacrity.png" boon disabled>
+        </div>
+    </div>
+    <div player>
+        <img src="./assets/Renegade.png" profession>
+        <div name>Lady Hidalgo (Hidalgo.3749)</div>
+        <div roles>
+            <img src="./assets/dps.png" role title="DPS">
+            <span>MO: Protect</span>
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon disabled>
+            <img src="./assets/fury.png" boon disabled>
+            <img src="./assets/quickness.png" boon disabled>
+            <img src="./assets/alacrity.png" boon>
+        </div>
+    </div>
+    <div player>
+        <img src="./assets/Daredevil.png" profession>
+        <div name>Hug Me Im Famous (rufus.7771)</div>
+        <div roles>
+            <img src="./assets/dps.png" role title="DPS">
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon disabled>
+            <img src="./assets/fury.png" boon disabled>
+            <img src="./assets/quickness.png" boon disabled>
+            <img src="./assets/alacrity.png" boon disabled>
+        </div>
+    </div>
+    <div player>
+        <img src="./assets/Bladesworn.png" profession>
+        <div name>Jämës Bröwn (jamesbrown.4523)</div>
+        <div roles>
+            <img src="./assets/dps.png" role title="DPS">
+        </div>
+        <div boons>
+            <img src="./assets/might.png" boon disabled>
+            <img src="./assets/fury.png" boon disabled>
+            <img src="./assets/quickness.png" boon disabled>
+            <img src="./assets/alacrity.png" boon disabled>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.querySelectorAll('img[boon]').forEach(img => {
+        img.addEventListener('click', () => {
+            img.toggleAttribute('disabled')
+        })
+    })
+</script>

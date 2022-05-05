@@ -1,0 +1,62 @@
+html {
+    font-family: sans-serif;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 1em;
+    width: 900px;
+}
+
+[player] {
+    border: thin solid grey;
+    display: grid;
+    grid-template-columns: 64px auto auto;
+    grid-template-rows: auto auto;
+    gap: 0.5em;
+}
+
+[profession] {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+
+    border-right: thin solid grey;
+}
+
+[name] {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 1;
+}
+
+[roles] {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+[roles] span {
+    font-size: 0.8em;
+    background: lightgrey;
+    border-radius: 1em;
+    padding: 0.3em;
+}
+
+[boons] {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    justify-self: end;
+}
+
+img[boon][disabled] {
+    opacity: 0.33;
+}
+
+img[boon] {
+    cursor: pointer;
+    height: 32px;
+}
+
+img[boon]:hover {
+    opacity: 0.67;
+}
